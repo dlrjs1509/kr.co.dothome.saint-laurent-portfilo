@@ -11,4 +11,11 @@ $(function(){
         });
         
     });
+    $('.content.cnt03 .btn>i').eq(1).click(function(){
+        $('.artGroup>.article').last().prependTo('.artGroup');
+
+    });
+    $('.content.cnt03 .btn>i').eq(0).click(function(){
+        $('.artGroup>.article').first().appendTo('.artGroup');
+    });
 });

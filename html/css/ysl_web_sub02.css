@@ -346,7 +346,7 @@ div.cntWrap:nth-child(5){
     margin-top: 80px;
 }
 div.cntWrap>div.content.cnt03{
-    width: 100vw;
+    width: 100%;
     max-width: none;
 }
 div.cntWrap>div.content.cnt03>div.header{
@@ -378,14 +378,19 @@ div.cntWrap>div.content.cnt03>div.section{
     margin-top: 80px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView{
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup::after{
+    display: block;
+    clear: both;
+    content: '';
+}
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup{
-    width: 119%;
+    width: 100%;
 }
 div.cntWrap>div.content.cnt03>div.section div.article{
-    width: calc(100% / 6 - 40px);
+    width: calc(100% / 5 - 40px);
     margin: 0px 20px;
     float: left;
 }
@@ -467,10 +472,6 @@ div.cntWrap>div.content.cnt03>div.section div.article>div.image.i5:hover{
 div.cntWrap>div.content.cnt03>div.section div.article:nth-child(5):hover{
     color: #fff;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i6{
-    height: 560px;
-    background-color: #ccc;
-}
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns{
     width: 80%;
     max-width: 1080px;
@@ -480,14 +481,14 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns{
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(1){
     width: calc(100% / 12);
     position: absolute;
-    top: 280px;
+    top: -300px;
     left: -68px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(2){
     width: calc(100% / 12);
     text-align: right;
     position: absolute;
-    top: 280px;
+    top: -300px;
     right: -52px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn>i{
