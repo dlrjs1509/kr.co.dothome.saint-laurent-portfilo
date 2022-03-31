@@ -466,14 +466,14 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child
     width: calc(100% / 12);
     position: absolute;
     top: 240px;
-    left: -68px;
+    left: -60px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn:nth-child(2){
     width: calc(100% / 12);
     text-align: right;
     position: absolute;
     top: 240px;
-    right: -52px;
+    right: -60px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.btns>div.btn>i{
     font-size: 48px;
