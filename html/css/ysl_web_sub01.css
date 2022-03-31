@@ -177,16 +177,16 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_01.jpg');
+    background-size: 90%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_001.png');
     height: 680px;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
     cursor: pointer;
-    transition: all 0.5s;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1:hover{
-    background-size: 130%;
+    background-size: 100%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1)>div.texts{
     margin-top: -680px;
@@ -200,15 +200,15 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_02.jpg');
+    background-size: 100%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_002.jpg');
     height: 680px;
     width: calc((100vw - 1080px) / 2 + 100%);
     cursor: pointer;
-    transition: all 0.5s;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2:hover{
-    background-size: 130%;
+    background-size: 120%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts{
     margin-top: -680px;
@@ -222,16 +222,16 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_03.jpg');
+    background-size: 100%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_003.jpg');
     height: 320px;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
     cursor: pointer;
-    transition: all 0.5s;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3:hover{
-    background-size: 130%;
+    background-size: 120%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(3)>div.texts{
     text-align: right;
@@ -245,16 +245,16 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(4){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i4{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_04.jpg');
+    background-size: 50%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_4.png');
     height: 320px;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
     cursor: pointer;
-    transition: all 0.5s
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i4:hover{
-    background-size: 130%;
+    background-size: 60%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(4)>div.texts{
     text-align: right;
@@ -268,16 +268,16 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(5){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i5{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_05.jpg');
+    background-size: 30%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_05.png');
     height: 640px;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
     cursor: pointer;
-    transition: all 0.5s
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i5:hover{
-    background-size: 130%;
+    background-size: 40%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(5)>div.texts{
     text-align: right;
@@ -300,12 +300,12 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(6){
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i6{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/sb001/sub1_content1/sub1_content1_06.jpg');
+    background-size: 100%;
+    background-image: url('../images/sb001/sub1_content1/sub1_content1_06.png');
     height: 640px;
     width: calc((100vw - 1080px) / 2 + 100%);
     cursor: pointer;
-    transition: all 0.5s
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i6:hover{
     background-size: 130%;

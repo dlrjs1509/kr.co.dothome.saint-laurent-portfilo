@@ -200,34 +200,37 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content1/sub2_content1-01.jpg');
+    background-image: url('../images/sb002/sub2_content1/sub2_content1-01.png');
     cursor: pointer;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1:hover{
     background-size: 120%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content1/sub2_content1-02.jpg');
+    background-image: url('../images/sb002/sub2_content1/sub2_content1-02.png');
     cursor: pointer;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2:hover{
-    background-size: 120%;
+    background-size: 110%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content1/sub2_content1-03.jpg');
+    background-image: url('../images/sb002/sub2_content1/sub2_content1-03.png');
     cursor: pointer;
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3:hover{
-    background-size: 120%;
+    background-size: 110%;
 }
 /* 컨텐츠2 */
 div.cntWrap:nth-last-child(3){
@@ -292,54 +295,58 @@ div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(4)>div.texts{
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i1{ 
     height: 320px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content2/sub2_content2-01.jpg');
+    background-image: url('../images/sb002/sub2_content2/sub2_content2-01.png');
     cursor: pointer;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i1:hover{
-    background-size: 150%;
+    background-size: 110%;
 } 
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i2{
     height: 880px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content2/sub2_content2-02.jpg');
+    background-image: url('../images/sb002/sub2_content2/sub2_content2-02.png');
     cursor: pointer;
     width: calc((100vw - 1080px) / 2 + 100%);
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i2:hover{
-    background-size: 120%;
+    background-size: 110%;
 } 
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i3{
     height: 320px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content2/sub2_content2-03.jpg');
+    background-image: url('../images/sb002/sub2_content2/sub2_content2-03.png');
     cursor: pointer;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i3:hover{
-    background-size: 150%;
+    background-size: 110%;
 } 
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i4{
     height: 640px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/sb002/sub2_content2/sub2_content2-04.jpg');
+    background-image: url('../images/sb002/sub2_content2/sub2_content2-04.png');
     cursor: pointer;
     width: calc((100vw - 1080px) / 2 + 100%);
     margin-left: calc((100vw - 1080px) / -2);
+    transition:  background-size 0.5s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i4:hover{
-    background-size: 120%;
+    background-size: 110%;
 } 
 /* 컨텐츠3 */
 div.cntWrap:nth-child(5){
