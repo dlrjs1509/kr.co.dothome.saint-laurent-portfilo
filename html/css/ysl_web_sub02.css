@@ -45,6 +45,25 @@ div.hdrWrap>div.header>ul.nav>li{
     font-weight: 700;
     position: relative;
 }
+div.hdrWrap>div.header>ul.nav>li::after{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 0%;
+    border-top: 2px solid black;
+    border-radius: 1px;
+}
+div.hdrWrap>div.header>ul.nav>li:hover::after{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    transition: all 1.5s;
+}
 div.hdrWrap>div.header>ul.nav>li>a:link{
     width: 100%;
     height: 100%;
@@ -425,6 +444,9 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>d
     line-height: 20px;
     margin-top: 20px;
 }
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts.i5{
+    color: #fff;
+}
 div.cntWrap>div.content.cnt03>div.section div.article>div.image.i1{
     background-size: cover;
     background-position: center;
@@ -480,9 +502,7 @@ div.cntWrap>div.content.cnt03>div.section div.article>div.image.i5{
 div.cntWrap>div.content.cnt03>div.section div.article>div.image.i5:hover{
     background-image: url('../images/sb002/sub2_content3/sub2_content3-5_05.jpg');
 }
-div.cntWrap>div.content.cnt03>div.section div.article:nth-child(5):hover{
-    color: #fff;
-}
+
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns{
     width: 80%;
     max-width: 1080px;

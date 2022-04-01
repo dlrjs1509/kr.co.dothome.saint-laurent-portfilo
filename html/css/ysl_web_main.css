@@ -45,6 +45,25 @@ div.hdrWrap>div.header>ul.nav>li{
     cursor: pointer;
     position: relative;
 }
+div.hdrWrap>div.header>ul.nav>li::after{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 0%;
+    border-top: 2px solid black;
+    border-radius: 1px;
+}
+div.hdrWrap>div.header>ul.nav>li:hover::after{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    transition: all 1.5s;
+}
 div.hdrWrap>div.header>ul.nav>li>i{
     font-size: 20px;
 }

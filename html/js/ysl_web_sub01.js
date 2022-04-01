@@ -1,10 +1,10 @@
 $(function(){
     var i = 0;
-    $('.content.cnt02 .btn>i').eq(1).click(function(){
+    $('.content.cnt02 .btn').eq(1).click(function(){   
         $('.artGroup>.article').last().prependTo('.artGroup');
 
     });
-    $('.content.cnt02 .btn>i').eq(0).click(function(){
+    $('.content.cnt02 .btn').eq(0).click(function(){
         $('.artGroup>.article').first().appendTo('.artGroup');
     });
     $('.nav>li').eq(3).mouseover(function(){
